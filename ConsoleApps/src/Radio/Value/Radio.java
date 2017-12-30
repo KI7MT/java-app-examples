@@ -1,3 +1,11 @@
+/* 
+ *  Author ......: Greg, Beam, KI7MT, <ki7mt@yahoo.com>
+ *  Copyright ...: Copyright (C) 2017 GPLv3
+ *  Level .......: Intermediate
+ *  Target ......: Java Console Application
+ *  Description..: Class for Radio properties
+ *  
+ */
 package Radio.Value;
 
 public class Radio
