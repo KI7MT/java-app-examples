@@ -48,20 +48,20 @@ the projects (ConsoleApps and GuiApps) into your IDE, browse to the **src/** fol
 
 **Console Application Examples**
 
-* (Intermediate) [Salary Tests]() - is a simple test application. It employs class instantiation, and static methods to test three different conditions.
+* (Intermediate) [Salary Tests](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/salary/tests) - is a simple test application. It employs class instantiation, and static methods to test three different conditions.
 
-* (Intermediate) [Airline Reservation]() - is a single-file seat assignment app. It employs boolean arrays, input scanners, random number generators, and static methods.
+* (Intermediate) [Airline Reservation](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/airline/reservation) - is a single-file seat assignment app. It employs boolean arrays, input scanners, random number generators, and static methods.
 
-* (Intermediate) [Calculate Sales]() - is a product sales calculator. It employs an input scanner, while-loops, for-loops, switch, and if-else statements.
+* (Intermediate) [Calculate Sales](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/calculate/sales) - is a product sales calculator. It employs an input scanner, while-loops, for-loops, switch, and if-else statements.
 
-* (Intermediate) [Hourly Salary]() - is a pay calculator that allows for multi-employee input. It employs an input scanner and while-loop.
+* (Intermediate) [Hourly Salary](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/hourly/salary) - is a pay calculator that allows for multi-employee input. It employs an input scanner and while-loop.
 
-* (Intermediate) [Parking Garage]() - is a parking fee calculator. It employs an input scanner, while-loop and it-statements.
+* (Intermediate) [Parking Garage](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/parking/garage) - is a parking fee calculator. It employs an input scanner, while-loop and it-statements.
 
-* (Advanced) [Animal Sighting]() - is an application that counts animal sightings and prints the totals. It uses ArrayLists, input scanners, while-loops, class instantiation, Object, hashCode, and toString overrides.
+* (Advanced) [Animal Sighting](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/animal/sighting) - is an application that counts animal sightings and prints the totals. It uses ArrayLists, input scanners, while-loops, class instantiation, Object, hashCode, and toString overrides.
 
-* (Advanced) [Domain Purchase]() - in an invoicing example application. It implements an [Interface](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html), [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), random generator, for-loops, and static methods.
+* (Advanced) [Domain Purchase](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/domain/purchase) - in an invoicing example application. It implements an [Interface](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html), [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), random generator, for-loops, and static methods.
 
-* (Advanced) [Gross Pay]() - is a gross pay calculator that uses three different pay types: S=Salary, H=Hourly, C=Commission. It extends (has-a) an Employee class, uses an [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), for-loops, and switch statements.
+* (Advanced) [Gross Pay](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/gross/pay) - is a gross pay calculator that uses three different pay types: S=Salary, H=Hourly, C=Commission. It extends (has-a) an Employee class, uses an [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), for-loops, and switch statements.
 
-* (Advanced) [Radio Station]() - is a station inventory and cost application. It employs class instantiation, ArrayLists, and if-else statements.
+* (Advanced) [Radio Station](https://github.com/KI7MT/java-app-examples/tree/master/ConsoleApps/src/beam/example/radio/station) - is a station inventory and cost application. It employs class instantiation, ArrayLists, and if-else statements.
