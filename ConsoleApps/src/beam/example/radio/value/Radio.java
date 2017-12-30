@@ -6,7 +6,7 @@
  *  Description..: Class for Radio properties
  *  
  */
-package Radio.Value;
+package beam.example.radio.value;
 
 public class Radio
 {

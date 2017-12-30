@@ -6,7 +6,7 @@
  *  Description..: Class for Employee
  *  
  */
-package Salary.Tests;
+package beam.example.dalary.tests;
 
 public class Employee
 {

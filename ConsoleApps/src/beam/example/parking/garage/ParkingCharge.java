@@ -6,7 +6,7 @@
  *  Description..: Class for Parking Charges
  *  
  */
-package Parking.Garage;
+package beam.example.parking.garage;
 
 public class ParkingCharge
 {

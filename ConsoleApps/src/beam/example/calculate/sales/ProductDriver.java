@@ -6,7 +6,7 @@
  *  Description..: Driver for Product Sales
  *  
  */
-package Calculate.Sales;
+package beam.example.calculate.sales;
 
 import java.util.Scanner;
 

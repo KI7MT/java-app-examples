@@ -6,7 +6,7 @@
  *  Description..: Driver for Hourly Salary
  *  
  */
-package Hourly.Salary;
+package beam.example.hourly.salary;
 
 import java.util.Scanner;
 

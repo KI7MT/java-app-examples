@@ -6,7 +6,7 @@
  *  Description..: Driver for Parking Garage
  *  
  */
-package Parking.Garage;
+package beam.example.parking.garage;
 
 import java.util.Scanner;
 

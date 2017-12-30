@@ -6,7 +6,7 @@
  *  Description..: Class for Hourly Salary
  *  
  */
-package Hourly.Salary;
+package beam.example.hourly.salary;
 
 public class HourlyEmployee {
 

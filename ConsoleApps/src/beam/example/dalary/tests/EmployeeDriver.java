@@ -6,7 +6,7 @@
  *  Description..: Driver for Employee Salary
  *  
  */
-package Salary.Tests;
+package beam.example.dalary.tests;
 
 public class EmployeeDriver
 {

@@ -6,7 +6,7 @@
  *  Description..: Class for Products
  *  
  */
-package Calculate.Sales;
+package beam.example.calculate.sales;
 
 public class Product {
 
