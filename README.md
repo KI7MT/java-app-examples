@@ -2,7 +2,7 @@
 
 **Intermediate and Advanced Java Application Examples**
 
-This repository contains examples that you can use to test out [Java](https://java.com/en/) with. Each package contains a small application that should run on most any operating systems that supports [Java](https://java.com/en/) desktop or server environments. The repository serves two primary purposes:
+This repository contains examples that you can use to test out [Java](https://java.com/en/) with. Each package contains a small application that should run on most any operating system that supports [Java](https://java.com/en/) desktop or server environments. The repository serves two primary purposes:
 
 1. A code-snippet store for my reference
 2. Code examples for aspiring [Java](https://java.com/en/)
@@ -44,11 +44,11 @@ the projects (ConsoleApps and GuiApps) into your IDE, browse to the **src/** fol
 
 * (Intermediate) [Hi-Low Redux Game](https://github.com/KI7MT/java-app-examples/tree/master/GuiApps/src/beam/example/redux/game) - Is a very simple (1 to 10) redux guessing game.
 
-* (Advanced) [Fire Fighter Cost Calculator](https://github.com/KI7MT/java-app-examples/tree/master/GuiApps/src/beam/example/firefighter/cost) - Is a a cost estimation calculator. I plan on dramatically expanding this application in the future. 
+* (Advanced) [Fire Fighter Cost Calculator](https://github.com/KI7MT/java-app-examples/tree/master/GuiApps/src/beam/example/firefighter/cost) - Is a cost estimation calculator. I plan on dramatically expanding this application in the future. 
 
 **Console Application Examples**
 
-* (Intermediate) [Salary Tests]() - is a simply test application. It employs class instantiation, and static methods to test three different conditions.
+* (Intermediate) [Salary Tests]() - is a simple test application. It employs class instantiation, and static methods to test three different conditions.
 
 * (Intermediate) [Airline Reservation]() - is a single-file seat assignment app. It employs boolean arrays, input scanners, random number generators, and static methods.
 
@@ -58,10 +58,10 @@ the projects (ConsoleApps and GuiApps) into your IDE, browse to the **src/** fol
 
 * (Intermediate) [Parking Garage]() - is a parking fee calculator. It employs an input scanner, while-loop and it-statements.
 
-* (Advanced) [Animal Sighting]() - is a an application that counts animal sightings and prints the totals. It uses ArrayLists,input scanners, while-loops, class instantiation, Object, hashCode, and toString overrides.
+* (Advanced) [Animal Sighting]() - is an application that counts animal sightings and prints the totals. It uses ArrayLists, input scanners, while-loops, class instantiation, Object, hashCode, and toString overrides.
 
 * (Advanced) [Domain Purchase]() - in an invoicing example application. It implements an [Interface](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html), [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), random generator, for-loops, and static methods.
 
-* (Advanced) [Gross Pay]() - is a gross pay calculator that uses three different pay types S=Salary, H=Hourly, C=Commission. It extends (has-a) an Employee class, uses an [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), for-loops, and switch statements.
+* (Advanced) [Gross Pay]() - is a gross pay calculator that uses three different pay types: S=Salary, H=Hourly, C=Commission. It extends (has-a) an Employee class, uses an [Abstract Method](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html), for-loops, and switch statements.
 
 * (Advanced) [Radio Station]() - is a station inventory and cost application. It employs class instantiation, ArrayLists, and if-else statements.
