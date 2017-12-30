@@ -16,7 +16,7 @@
  */
 package beam.example.radio.station;
 
-public class Driver
+public class RadioStationDriver
 {
 	public static void main(String[] args)
 	{
