@@ -44,7 +44,7 @@ public class GrossPayDriver
 		Scanner input = new Scanner(System.in);
 		
 		// start user input
-		System.out.println("Java-1 Lab-7 Employee Pay Calculator");
+		System.out.println("Employee Pay Calculator");
 		System.out.println("H = Hourly, S = Salary, C = Commission\n");
 		
 		// how many employee's to process
