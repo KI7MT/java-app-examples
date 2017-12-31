@@ -8,14 +8,14 @@
  */
 package beam.example.calculate.sales;
 
-public class Product {
+class Product {
 
 	// initialize variables
 	private int productID;
 	private double productCost;
 
 	// constructor
-	public Product(int productID, double productCost)
+	Product(int productID, double productCost)
 	{
 		super();
 		this.productID = productID;
@@ -63,13 +63,14 @@ public class Product {
 	}
 	
 	/** @return returns the product cost based on ID */
-	public double getProductCost()
+	double getProductCost()
 	{
 		return productCost;
 	}
 
-	/** @param productCost sets the product cost */
-	public void setProductCost(double productCost)
+	/**
+	 * @param productCost sets the product cost  */
+	void setProductCost(double productCost)
 	{
 		this.productCost = productCost;
 	}

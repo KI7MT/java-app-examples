@@ -11,7 +11,7 @@ package beam.example.calculate.sales;
 import java.util.Scanner;
 
 
-public class ProductDriver
+class ProductDriver
 {
 	public static void main(String[] args) {
 		
