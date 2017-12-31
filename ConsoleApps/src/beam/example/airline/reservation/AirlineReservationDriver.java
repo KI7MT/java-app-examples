@@ -122,26 +122,24 @@ public class AirlineReservationDriver
 	// Method: Selection message
 	private static void selectMessage(int economySeats, int firstSeats)
 	{
-		int eSeats = economySeats;
-		int fSeats = firstSeats;
 		String fSeating = ("- Use 1 for First Class Seating");
 		String eSeating = ("- Use 2 for Economly Seating");
 		String efSeating = ("- Use 1 First Class, 2 for Economy");
 		
 		// if both first and economy are open
-		if (fSeats < 5 & eSeats < 5)
+		if (firstSeats < 5 &economySeats < 5)
 		{
 			System.out.println(efSeating);
 		}
 		
 		// if first is full and economy is open
-		if (fSeats == 5 & eSeats < 5)
+		if (firstSeats == 5 & economySeats < 5)
 		{
 			System.out.println(eSeating);
 		}
 		
 		// if first is open and economy is full
-		if (fSeats < 5 & eSeats == 5)
+		if (firstSeats < 5 & economySeats == 5)
 		{
 			System.out.println(fSeating);
 		}
@@ -151,9 +149,8 @@ public class AirlineReservationDriver
 	// Method: Print Header
 	private static void airlineHeader(int flightNumber)
 	{
-		int fNumber = flightNumber; 
 		System.out.println("Puddle Jumper Airline Reservation System");
-		System.out.println("Flight : PJ" + fNumber + " HLN to SLC");
+		System.out.println("Flight : PJ" + flightNumber + " HLN to SLC");
 		System.out.println("----------------------------------------");
 		
 	} // END - Airline Header
