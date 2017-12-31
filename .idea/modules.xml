@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsoleApps/ConsoleApps.iml" filepath="$PROJECT_DIR$/ConsoleApps/ConsoleApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuiApps/GuiApps.iml" filepath="$PROJECT_DIR$/GuiApps/GuiApps.iml" />
+    </modules>
+  </component>
+</project>
