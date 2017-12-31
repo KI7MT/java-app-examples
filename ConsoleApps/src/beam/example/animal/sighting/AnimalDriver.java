@@ -75,19 +75,12 @@ public class AnimalDriver
 	}
 
 	// get me out of here method
-	public static boolean tooManyLions(String input)
+	static boolean tooManyLions(String input)
 	{
 		String check;
 		check = input.toUpperCase();
 
-		if (check.equals("QUIT"))
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return check.equals("QUIT");
 	}
 	
 } /* END - Animal Driver */
