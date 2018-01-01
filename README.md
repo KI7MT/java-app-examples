@@ -12,8 +12,7 @@ All of the examples are either labs, dev-book problems, or common application
 needs I've run across. While the problem source may differ, I wrote all of the solutions as presented in the repository. As time allows, more advanced topics will be added.
 
 ## Required Tools
-All of the applications were written using [Eclipse Oxygen](https://www.eclipse.org/). However, [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [NetBeans](https://netbeans.org/) would
-do just as well.
+All of the applications were written using [Eclipse Oxygen](https://www.eclipse.org/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [NetBeans](https://netbeans.org/) would do just as well.
 
 The [Java](https://java.com/en/) version used for both Windows and Linux (at the time of testing) was Version 8 Update 151. No external libraries are needed nor used unless otherwise noted.
 

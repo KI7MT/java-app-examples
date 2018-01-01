@@ -37,7 +37,7 @@ public class CommissionEmployee extends Employee
 	}
 
 	// return grossSales
-	private double getGrossSales()
+	double getGrossSales()
 	{
 		return grossSales;
 	}
@@ -49,7 +49,7 @@ public class CommissionEmployee extends Employee
 	}
 
 	// return commissionRate
-	private double getCommissionRate()
+	double getCommissionRate()
 	{
 		return commissionRate;
 	}
