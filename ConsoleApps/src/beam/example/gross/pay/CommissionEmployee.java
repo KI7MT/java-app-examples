@@ -15,13 +15,13 @@ public class CommissionEmployee extends Employee
 	private double commissionRate;
 	
 	// Constructor, super must be the first line
-	public CommissionEmployee(
+	CommissionEmployee(
 			String firstName,
 			String lastName,
 			String employeeId,
 			double grossSales,
 			double commissionRate
-			)
+	)
 	{
 		super(firstName, lastName, employeeId);
 		this.grossSales = grossSales;
@@ -37,7 +37,7 @@ public class CommissionEmployee extends Employee
 	}
 
 	// return grossSales
-	public double getGrossSales()
+	private double getGrossSales()
 	{
 		return grossSales;
 	}
@@ -49,7 +49,7 @@ public class CommissionEmployee extends Employee
 	}
 
 	// return commissionRate
-	public double getCommissionRate()
+	private double getCommissionRate()
 	{
 		return commissionRate;
 	}

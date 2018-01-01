@@ -15,11 +15,11 @@ public abstract class Employee
 	private final String employeeId;
 
 	// Constructor
-	public Employee(
+	Employee(
 			String firstName,
 			String lastName,
 			String employeeId
-			)
+	)
 	{
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -31,19 +31,19 @@ public abstract class Employee
 	public abstract double calculatePayment();
 	
 	// return firstName
-	public String getFirstName()
+	String getFirstName()
 	{
 		return firstName;
 	}
 
 	// return lastName
-	public String getLastName()
+	String getLastName()
 	{
 		return lastName;
 	}
 
 	// return employeeID
-	public String getEmployeeId()
+	String getEmployeeId()
 	{
 		return employeeId;
 	}

@@ -16,13 +16,13 @@ public class HourlyEmployee extends Employee
 	private double hours;
 	
 	// Constructor, super must be the first line
-	public HourlyEmployee(
+	HourlyEmployee(
 			String firstName,
 			String lastName,
 			String employeeId,
 			double wage,
 			double hours
-			)
+	)
 	{
 		super(firstName, lastName, employeeId);
 		this.wage = wage;
@@ -46,7 +46,7 @@ public class HourlyEmployee extends Employee
 	}
 	
 	// return wage
-	public double getWage()
+	double getWage()
 	{
 		return wage;
 	}
@@ -58,13 +58,13 @@ public class HourlyEmployee extends Employee
 	}
 
 	// return hours;
-	public double getHours()
+	double getHours()
 	{
 		return hours;
 	}
 
 	// set hours
-	public void setHours(double hours)
+	void setHours(double hours)
 	{
 		this.hours = hours;
 	}

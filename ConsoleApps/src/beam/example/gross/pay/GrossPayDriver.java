@@ -146,14 +146,14 @@ public class GrossPayDriver
 		input.close();
 		
 		// for loop to print individual employee summaries
-		for (int counter = 0; counter < employees.length; counter++)
-		{
-			System.out.print(employees[counter]); // calls the Employee class toString()
-			System.out.printf("\nEmployee Pay...: $%.2f", employees[counter].calculatePayment());
+		for (Employee employee : employees) {
+
+			System.out.print(employee); // calls the Employee class toString()
+			System.out.printf("\nEmployee Pay...: $%.2f", employee.calculatePayment());
 			System.out.println("\n");
-			
+
 			// add employee's pay to totalPay
-			totalPay += employees[counter].calculatePayment();
+			totalPay += employee.calculatePayment();
 
 		} // END - Employee Summary For Loop
 		

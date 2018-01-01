@@ -12,7 +12,7 @@
  *          
  *  Note-2: Most of the pricing is generated with Random
  *          number generation as are several other fields.
- *          Each time the script is run, you should get differnt
+ *          Each time the script is run, you should get different
  *          values for each invoice item.
  *        
  */

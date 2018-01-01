@@ -14,12 +14,12 @@ public class SalariedEmployee extends Employee
 	private double weeklySalary;
 
 	// Constructor, super must be the first line
-	public SalariedEmployee(
+	SalariedEmployee(
 			String firstName,
 			String lastName,
 			String employeeId,
 			double weeklySalary
-			)
+	)
 	{
 		super(firstName, lastName, employeeId);
 		this.weeklySalary = weeklySalary;
@@ -34,7 +34,7 @@ public class SalariedEmployee extends Employee
 	}
 	
 	// return weeklySalary
-	public double getWeeklySalary()
+	double getWeeklySalary()
 	{
 		return weeklySalary;
 	}
