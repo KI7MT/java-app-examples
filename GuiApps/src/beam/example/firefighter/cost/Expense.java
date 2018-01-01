@@ -14,6 +14,8 @@ package beam.example.firefighter.cost;
 public interface Expense
 {
 	// calculates the cost of something or someone
-	public double calculateExpense();
+	default double calculateExpense() {
+		return 0;
+	}
 
 } /* END - Expense Interface */

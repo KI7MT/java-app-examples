@@ -48,7 +48,7 @@ public abstract class FirstResponder implements Expense
 	 * 
 	 * @return first name
 	 */
-	public String getFirstName()
+	String getFirstName()
 	{
 		return firstName;
 	}
@@ -66,7 +66,7 @@ public abstract class FirstResponder implements Expense
 	 * 
 	 * @return last name last name of responder
 	 */
-	public String getLastName()
+	String getLastName()
 	{
 		return lastName;
 	}
@@ -84,7 +84,7 @@ public abstract class FirstResponder implements Expense
 	 * 
 	 * @return PPE cost
 	 */
-	public double getPpeCost()
+	double getPpeCost()
 	{
 		return ppeCost;
 	}
@@ -102,7 +102,7 @@ public abstract class FirstResponder implements Expense
 	 * 
 	 * @return Radio cost
 	 */
-	public double getRadioCost()
+	double getRadioCost()
 	{
 		return radioCost;
 	}
@@ -120,7 +120,7 @@ public abstract class FirstResponder implements Expense
 	 * 
 	 * @return Pager Cost
 	 */
-	public double getPagerCost()
+	double getPagerCost()
 	{
 		return pagerCost;
 	}

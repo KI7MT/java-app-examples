@@ -20,7 +20,7 @@ package beam.example.firefighter.cost;
  *  <li>Uses (<strong>7</strong>) classes, only (<strong>4</strong>) required
  *  <li>Calls all methods in extended classes
  *  <li>FireFighter* extends FirstResponder class
- *  <li>FireFighter* overrides FirstResponr calculateCost() method
+ *  <li>FireFighter* overrides FirstResponder calculateCost() method
  *  <li>Station (has-a) expense through FireFighter* and FirstResponder classes
  *  <li>Expense is the Interface, implemented through FirstResponder class
  *  <li>Station ArrayList (responders) holds the FireFighter* objects
@@ -34,7 +34,6 @@ package beam.example.firefighter.cost;
  * @since	30-DEC-2017
  *
  */
-
 import java.util.Scanner;
 import java.util.Random;
 
@@ -77,8 +76,9 @@ public class Driver
 		System.out.print("Fire Station Name........: ");
 		stationName = input.nextLine();
 		
-		// instanate Station class, creates ArrayList responders, enables add and loop methods
-		// and sets the station name of the Object to: stationName
+		// instantiate Station class, creates ArrayList responders, enables
+		// add and loop methods and sets the station name of the Object
+		// to: stationName
 		Station station = new Station(stationName);
 		
 		// how many fire fighters to add to ArrayList<Station> stationName 
@@ -163,7 +163,7 @@ public class Driver
 		input.close();
 		
 		// call Station.loopResponders() to print the data
-		station.loopReponders();
+		station.loopResponder();
 		
 	} /* END - Main Method */
 
@@ -178,12 +178,11 @@ public class Driver
 	 * @param max number
 	 * @return random number for fire fighter number
 	 */
-	public static int ranInt(int min, int max)
+	private static int ranInt(int min, int max)
 	{
 		Random rand = new Random();
-		int ranValueInt = rand.nextInt((max - min) + 1);
-	
-		return ranValueInt;
+		return rand.nextInt((max - min) + 1);
+
 	} /* END - Random number generator method */
 
 } /* END - Driver Class */

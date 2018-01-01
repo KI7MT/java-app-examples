@@ -1,5 +1,3 @@
-package beam.example.firefighter.cost;
-
 /**
  * Station.jaca<br>
  * Class provides for a Station name, ArrayList, add and loop methods for responders<br>
@@ -10,6 +8,7 @@ package beam.example.firefighter.cost;
  * @since	30-DEC-2017
  *
  */
+package beam.example.firefighter.cost;
 
 import java.util.ArrayList;
 
@@ -21,20 +20,20 @@ public class Station
 
 	/**
 	 * Constructor: sets the station name 
-	 * 
+	 *
 	 * @param stationName name of the fire station
 	 */
-	public Station(String stationName)
+	Station(String stationName)
 	{
 		this.stationName = stationName;
 	}
 
 	/**
 	 * Method: Add a FirstResponder to the responders array list
-	 * 
+	 *
 	 * @param responder name of the array list
 	 */
-	public void addResponder(FirstResponder responder)
+	void addResponder(FirstResponder responder)
 	{
 		responders.add(responder);
 	}
@@ -43,17 +42,16 @@ public class Station
 	 * 
 	 * @return the responders ArrayList
 	 */
-	public ArrayList<FirstResponder> getResponders()
+	ArrayList<FirstResponder> getResponders()
 	{
 		return responders;
 	}
 
-	
 	/**
 	 * 
 	 * @return Station Name
 	 */
-	public String getStationName()
+	String getStationName()
 	{
 		return stationName;
 	}
@@ -62,7 +60,7 @@ public class Station
 	 * Method: Loop through the responders array list and print Objects ToStrings
 	 * for each FirstResponder 
 	 */
-	public void loopReponders()
+	void loopResponder()
 	{
 		double grandTotal = 0;
 		
@@ -80,7 +78,6 @@ public class Station
 		
 	} /* END - Loop for Responders Array */
 
-	
 	@Override
 	public String toString()
 	{

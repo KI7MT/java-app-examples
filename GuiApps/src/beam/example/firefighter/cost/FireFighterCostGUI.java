@@ -1,8 +1,8 @@
 package beam.example.firefighter.cost;
 
 /**
- * FireFighterCostGUI.java<br>
- * UI Driver for calculating Fire Fighter costs<br>
+ * FireFighterCostGUI.java
+ * UI Driver for calculating Fire Fighter costs
  * Repository git@github.com:KI7MT/java-app-examples.git
  *
  * @author	Greg Beam
@@ -10,7 +10,6 @@ package beam.example.firefighter.cost;
  * @since	30-DEC-2017
  *
  */
-
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -30,11 +29,11 @@ public class FireFighterCostGUI extends JFrame
 	/**
 	 * Class Variables
 	 * <ul>
-	 *  <li>Serial Version UID</li>
-	 *  <li>Initializes JTextFields, JComboBox, BoxOptions, JTextArea</li>
-	 *  <li>Creates Station Array</li>
-	 *  <li>Initializes Wildland, Structure, and EMT variable names</li>
-	 *  <li>Sets default values for chainSaw, emtKit, and toolKit</li>
+	 *  <li>Serial Version UID
+	 *  <li>Initializes JTextFields, JComboBox, BoxOptions, JTextArea
+	 *  <li>Creates Station Array
+	 *  <li>Initializes Wildland, Structure, and EMT variable names
+	 *  <li>Sets default values for chainSaw, emtKit, and toolKit
 	 * </ul>
 	 * 
 	 */
