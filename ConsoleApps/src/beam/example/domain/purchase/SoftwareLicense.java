@@ -20,13 +20,13 @@ public class SoftwareLicense implements IPayable
 	private int quantity;
 
 	// Constructor
-	public SoftwareLicense(
+	SoftwareLicense(
 			String ownerName,
 			int productId,
 			String description,
 			double costPerSeat,
 			int quantity
-			)
+	)
 	{
 		this.ownerName = ownerName;
 		this.productId = productId;
@@ -43,7 +43,7 @@ public class SoftwareLicense implements IPayable
 	}
 
 	// return ownerName
-	public String getOwnerName()
+	private String getOwnerName()
 	{
 		return ownerName;
 	}
@@ -55,7 +55,7 @@ public class SoftwareLicense implements IPayable
 	}
 
 	// return productId
-	public int getProductId()
+	private int getProductId()
 	{
 		return productId;
 	}
@@ -79,7 +79,7 @@ public class SoftwareLicense implements IPayable
 	}
 
 	// return costPerSeat
-	public double getCostPerSeat()
+	private double getCostPerSeat()
 	{
 		return costPerSeat;
 	}
@@ -91,7 +91,7 @@ public class SoftwareLicense implements IPayable
 	}
 
 	// return quantity
-	public int getQuantity()
+	private int getQuantity()
 	{
 		return quantity;
 	}

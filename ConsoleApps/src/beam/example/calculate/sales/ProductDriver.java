@@ -16,14 +16,14 @@ class ProductDriver
 	public static void main(String[] args) {
 		
 		// initialize loop control and quantity variables.
-		int pcount;
+		int pCount;
 		int number = 0;
 		int p1Count = 0;
 		int p2Count = 0;
 		int p3Count = 0;
 		int p4Count = 0;
 		int p5Count = 0;
-		int quantity = 0;
+		int quantity;
 		double itemTotal;
 				
 		// initialize the Scanner.
@@ -87,37 +87,37 @@ class ProductDriver
 			{
 				case 1:
 					itemTotal = p1Count * value.getProductCost();
-					pcount = p1Count; 
+					pCount = p1Count; 
 					break;
 			
 				case 2:
-					itemTotal = p2Count * value.getProductCost();;
-					pcount = p2Count;
+					itemTotal = p2Count * value.getProductCost();
+					pCount = p2Count;
 					break;
 
 				case 3:
 					itemTotal = p3Count * value.getProductCost();
-					pcount = p3Count;
+					pCount = p3Count;
 					break;				
 
 				case 4:
 					itemTotal = p4Count * value.getProductCost();
-					pcount = p4Count;
+					pCount = p4Count;
 					break;
 
 				case 5:
 					itemTotal = p5Count * value.getProductCost();
-					pcount = p5Count;
+					pCount = p5Count;
 					break;	
 
 				default:
 					itemTotal = 0.00;
-					pcount = 0;
+					pCount = 0;
 					break;
 			} // END - Case switch
 			
 			// print the product line totals
-			System.out.printf("\nProduct-%s   %s   $%.2f", count, pcount, itemTotal);
+			System.out.printf("\nProduct-%s   %s   $%.2f", count, pCount, itemTotal);
 
 		} // END - for loop
 		System.out.print("\n");

@@ -70,7 +70,7 @@ class Product {
 
 	/**
 	 * @param productCost sets the product cost  */
-	void setProductCost(double productCost)
+	private void setProductCost(double productCost)
 	{
 		this.productCost = productCost;
 	}

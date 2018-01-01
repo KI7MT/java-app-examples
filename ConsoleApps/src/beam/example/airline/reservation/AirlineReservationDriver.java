@@ -146,7 +146,7 @@ class AirlineReservationDriver
 
 
 	// Method: Print Header
-	private static void airlineHeader(int flightNumber)
+	static void airlineHeader(int flightNumber)
 	{
 		System.out.println("Puddle Jumper Airline Reservation System");
 		System.out.println("Flight : PJ" + flightNumber + " HLN to SLC");
@@ -154,4 +154,4 @@ class AirlineReservationDriver
 		
 	} // END - Airline Header
 	
-} //END - Airline Reservation System
+} // END - Airline Reservation System

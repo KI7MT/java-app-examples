@@ -31,14 +31,17 @@ public class Animal
 		super();
 		this.animalName = animalName;
 	}
+
 	public void setAnimalName(String animalName)
 	{
 		this.animalName = animalName;
 	}
+
 	public int getAnimalCount()
 	{
 		return animalCount;
 	}
+
 	public void setAnimalCount(int animalCount)
 	{
 		this.animalCount = animalCount;

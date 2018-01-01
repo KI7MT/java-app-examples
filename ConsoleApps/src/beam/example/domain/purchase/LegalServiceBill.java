@@ -20,14 +20,14 @@ public class LegalServiceBill implements IPayable
 	private boolean status;
 
 	// Constructor
-	public LegalServiceBill(
-			String caseName,
-			String caseNumber,
-			double hours,
-			double rate,
-			double expenses,
-			boolean status
-			)
+    LegalServiceBill(
+            String caseName,
+            String caseNumber,
+            double hours,
+            double rate,
+            double expenses,
+            boolean status
+    )
 	{
 		this.caseName = caseName;
 		this.caseNumber = caseNumber;
@@ -56,7 +56,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return caseName
-	public String getCaseName()
+	private String getCaseName()
 	{
 		return caseName;
 	}
@@ -68,7 +68,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return caseNumber
-	public String getCaseNumber()
+	private String getCaseNumber()
 	{
 		return caseNumber;
 	}
@@ -80,7 +80,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return hours
-	public double getHours()
+	private double getHours()
 	{
 		return hours;
 	}
@@ -92,7 +92,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return rate
-	public double getRate()
+	private double getRate()
 	{
 		return rate;
 	}
@@ -104,7 +104,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return expenses
-	public double getExpenses()
+	private double getExpenses()
 	{
 		return expenses;
 	}
@@ -116,7 +116,7 @@ public class LegalServiceBill implements IPayable
 	}
 
 	// return status
-	public boolean isStatus()
+	private boolean isStatus()
 	{
 		return status;
 	}

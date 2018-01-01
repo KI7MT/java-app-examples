@@ -20,13 +20,13 @@ public class DomainNameRegistration implements IPayable
 	private int quantity;
 
 	// Constructor	
-	public DomainNameRegistration(
+	DomainNameRegistration(
 			String ownerName,
 			String domainName,
 			String registrar,
 			double costPerYear,
 			int quantity
-			)
+	)
 	{
 		this.ownerName = ownerName;
 		this.domainName = domainName;
@@ -43,43 +43,43 @@ public class DomainNameRegistration implements IPayable
 	}
 
 	// return ownerName
-	public String getOwnerName()
+	private String getOwnerName()
 	{
 		return ownerName;
 	}
 
 	// set ownerName
-	public void setOwnerName(String ownerName)
+	private void setOwnerName(String ownerName)
 	{
 		this.ownerName = ownerName;
 	}
 
 	// return domainName
-	public String getDomainName()
+	private String getDomainName()
 	{
 		return domainName;
 	}
 
 	// set domainName
-	public void setDomainName(String domainName)
+	private void setDomainName(String domainName)
 	{
 		this.domainName = domainName;
 	}
 
 	// return registrar
-	public String getRegistrar()
+	private String getRegistrar()
 	{
 		return registrar;
 	}
 
 	// set registrar
-	public void setRegistrar(String registrar)
+	private void setRegistrar(String registrar)
 	{
 		this.registrar = registrar;
 	}
 
 	// return costPerYear
-	public double getCostPerYear()
+	private double getCostPerYear()
 	{
 		return costPerYear;
 	}
@@ -91,13 +91,13 @@ public class DomainNameRegistration implements IPayable
 	}
 
 	// return quantity
-	public int getQuantity()
+	private int getQuantity()
 	{
 		return quantity;
 	}
 
 	// set quantity
-	public void setQuantity(int quantity)
+	private void setQuantity(int quantity)
 	{
 		this.quantity = quantity;
 	}

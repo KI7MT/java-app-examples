@@ -8,9 +8,11 @@
  */
 package beam.example.domain.purchase;
 
-public interface IPayable
+interface IPayable
 {
 	// calculate the payment of something
-	double getTotalDue();
-	
+	default double getTotalDue() {
+		return 0;
+	}
+
 } /* END - Payable Interface */
