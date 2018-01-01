@@ -12,15 +12,14 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
-public class AirlineReservationDriver
+class AirlineReservationDriver
 {
-
 	public static void main(String[] args)
 	{
 		// initialize process variables 
 		int economySeats = 0;
 		int firstSeats = 0;
-		int userSelect = 0;
+		int userSelect;
 
 		// initialize 10 seat primitive boolean single-dimension array
 		boolean[] flight = new boolean[10];
@@ -76,7 +75,7 @@ public class AirlineReservationDriver
 			{
 				flight[economySeats + 5] = true;
 				economySeats++;
-				System.out.println("- Bording Pass: seat [" + (economySeats + 5) + "]");
+				System.out.println("- Boarding Pass: seat [" + (economySeats + 5) + "]");
 				System.out.println("");
 				userSelect = 0;
 			}
@@ -97,7 +96,7 @@ public class AirlineReservationDriver
 			}
 
 			// reset userSelect variable
-			userSelect = 0;
+			// userSelect = 0;
 
 		} // END - reservation entry while loop
 
@@ -123,7 +122,7 @@ public class AirlineReservationDriver
 	private static void selectMessage(int economySeats, int firstSeats)
 	{
 		String fSeating = ("- Use 1 for First Class Seating");
-		String eSeating = ("- Use 2 for Economly Seating");
+		String eSeating = ("- Use 2 for Economy Seating");
 		String efSeating = ("- Use 1 First Class, 2 for Economy");
 		
 		// if both first and economy are open
