@@ -53,3 +53,6 @@ local.properties
 .worksheet
 # Maven
 target/
+
+# IntelliJ per-user state (layout, open tabs, local paths)
+.idea/workspace.xml
