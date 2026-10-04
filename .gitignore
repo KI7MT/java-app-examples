@@ -51,3 +51,8 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+# Maven
+target/
+
+# IntelliJ per-user state (layout, open tabs, local paths)
+.idea/workspace.xml
