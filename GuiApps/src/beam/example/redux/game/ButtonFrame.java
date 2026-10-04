@@ -16,12 +16,12 @@ import javax.swing.JOptionPane;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
-public class ButtonFrame extends JFrame
+public final class ButtonFrame extends JFrame
 {
 	private static final long serialVersionUID = 1L;
 	private final JButton plainJButton;
 	private final JTextField textBox;
-	HighLowGame game = new HighLowGame(10);
+	transient HighLowGame game = new HighLowGame(10);
 	
 	// button frame adds JButtons to JFrame
 	public ButtonFrame()

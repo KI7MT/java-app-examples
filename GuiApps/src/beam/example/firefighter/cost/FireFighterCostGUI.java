@@ -24,7 +24,7 @@ import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class FireFighterCostGUI extends JFrame
+public final class FireFighterCostGUI extends JFrame
 {
 	/**
 	 * Class Variables
@@ -49,10 +49,10 @@ public class FireFighterCostGUI extends JFrame
 	private String[] boxOptions = {"Select..", "EMT", "Wildland", "Structure"};
 
 	// variables used in processing fire fighters
-	Station station = new Station("York Fire Rescue");
-	FireFighterWildland wildland;
-	FireFighterEmt emt;
-	FireFighterStructure structure;
+	transient Station station = new Station("York Fire Rescue");
+	transient FireFighterWildland wildland;
+	transient FireFighterEmt emt;
+	transient FireFighterStructure structure;
 	private double chainSaw = 450.00;
 	private double emtKit = 1200.00;
 	private double toolKit = 175.00 ; 
