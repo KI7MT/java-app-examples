@@ -12,9 +12,11 @@ All of the examples are either labs, dev-book problems, or common application
 needs I've run across. While the problem source may differ, I wrote all of the solutions as presented in the repository. As time allows, more advanced topics will be added.
 
 ## Required Tools
-All of the applications were written using [Eclipse Oxygen](https://www.eclipse.org/), [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [NetBeans](https://netbeans.org/).
+Any IDE will open these: [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org/), [NetBeans](https://netbeans.org/) or [VS Code](https://code.visualstudio.com/). They were originally written in Eclipse Oxygen.
 
-The [Java](https://java.com/en/) version used for both Windows and Linux (at the time of testing) was Version 8 Update 151. No external libraries are needed nor used unless otherwise noted.
+**[JDK 25](https://adoptium.net/) (LTS)** or newer. The examples were written against Java 8 in 2017 and
+still compile unchanged — the Java version is declared once, in the root `pom.xml`.
+No external libraries are needed nor used unless otherwise noted.
 
 ## Classification
 Unlike my [dotnet-core-example](https://github.com/KI7MT/dotnet-core-examples) respository, the [Java](https://java.com/en/) examples provide both Console and Graphical examples.
@@ -36,6 +38,19 @@ For easy separation of classes, each application has its own package. Each progr
 
 The easiest way to run the applications is from an IDE. Simply import
 the projects (ConsoleApps and GuiApps) into your IDE, browse to the **src/** folder, then expand the package you want to test. This is true for both console and UI packages.
+
+To build everything from the command line instead:
+
+```bash
+mvn clean compile
+```
+
+Then run any example by its package and driver class:
+
+```bash
+java -cp ConsoleApps/target/classes beam.example.radio.station.RadioStationDriver
+java -cp GuiApps/target/classes     beam.example.redux.game.ApplicationGUI
+```
 
 ## Example List
 

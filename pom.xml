@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>beam.example</groupId>
+  <artifactId>java-app-examples</artifactId>
+  <version>1.2.0</version>
+  <packaging>pom</packaging>
+
+  <name>Java Application Examples</name>
+  <description>Intermediate and Advanced Java Console and UI application examples</description>
+  <url>https://github.com/KI7MT/java-app-examples</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/KI7MT/java-app-examples/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>KI7MT</id>
+      <name>Greg Beam</name>
+    </developer>
+  </developers>
+
+  <!--
+    The Java version is declared ONCE, here. Every module inherits it, so moving
+    to a future release is a one-line change rather than an edit per project.
+  -->
+  <properties>
+    <maven.compiler.release>25</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <modules>
+    <module>ConsoleApps</module>
+    <module>GuiApps</module>
+  </modules>
+
+</project>

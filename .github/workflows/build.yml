@@ -1,0 +1,33 @@
+# Builds every example on the Java release named in pom.xml, on all three
+# desktop operating systems a student might be using. Its job is to notice when
+# a future JDK stops accepting this code, rather than leaving it to be found
+# years later.
+name: build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 * *"   # monthly, so bit-rot surfaces without a push
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+
+      - name: Build
+        run: mvn -B --no-transfer-progress clean compile

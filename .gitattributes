@@ -1,0 +1,19 @@
+# Normalise line endings. The repository was written on Windows in 2017 and most
+# sources are still CRLF, which shows up as whole-file diffs for anyone on Linux
+# or macOS. Text is stored LF in the repository and checked out native.
+* text=auto
+
+*.java   text diff=java
+*.md     text
+*.xml    text
+*.yml    text
+*.properties text
+
+*.classpath text
+*.project   text
+*.iml       text
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.jar binary
